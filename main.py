@@ -1,10 +1,11 @@
 import math
-
+import datetime
 # [機能A]@アリス担当 #############
 
 
 # [機能B]@ボブ担当 ###############
-
+def func_B():
+  print('func_B called.')
 
 # メイン処理 #####################
 if __name__ == "__main__":
@@ -15,4 +16,5 @@ if __name__ == "__main__":
 
   # 機能Bの実行
 
+  func_B()
   print("end.")
