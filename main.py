@@ -1,7 +1,8 @@
 import math
 
 # [機能A]@アリス担当 #############
-
+def func_A():
+  print('func_A called.')
 
 # [機能B]@ボブ担当 ###############
 
